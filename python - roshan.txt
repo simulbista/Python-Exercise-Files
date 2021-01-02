@@ -1,0 +1,10 @@
+Python free course:
+https://www.kaggle.com/learn/python
+
+Git account create: https://github.com/?fbclid=IwAR25269kD1tzj1Lwu0LUiM-f_Y2BFEuEaDmEi_9lZWe6BXZ02mi5D_X0JJw
+
+Git tutorial: https://github.com/kamranahmedse/developer-roadmap?fbclid=IwAR2pQuXHD8c2wKpJNIF2H2L4LKYIGs_fD-Tsjko8XBMNDbpUFHNXH0PaqSU
+
+Machine Learning roadmap:
+
+https://www.youtube.com/watch?time_continue=2420&v=pHiMN_gy9mk&feature=emb_logo&fbclid=IwAR1Ifv3K-7MygQhPSq3SAg2S4GBK6Nphy_fbzedv41Svd5TjGLKqAAN6iWw

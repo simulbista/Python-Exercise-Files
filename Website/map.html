@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0c78dfb6495444f5a90bf9ed626ae39a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0c78dfb6495444f5a90bf9ed626ae39a" ></div>
+        
+</body>
+<script>    
+    
+            var map_0c78dfb6495444f5a90bf9ed626ae39a = L.map(
+                "map_0c78dfb6495444f5a90bf9ed626ae39a",
+                {
+                    center: [27.673378, 85.3179],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_de0a525e354148a788b640624d57560c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0c78dfb6495444f5a90bf9ed626ae39a);
+        
+    
+            var feature_group_eb8a64b6883c462c9f38c2ea451139db = L.featureGroup(
+                {}
+            ).addTo(map_0c78dfb6495444f5a90bf9ed626ae39a);
+        
+    
+            var marker_a81f4ee25c954a5f948fcc31f9d96b90 = L.marker(
+                [27.669905, 85.321202],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_e8f8acafd24549dcaa6c054ca9703f43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a81f4ee25c954a5f948fcc31f9d96b90.setIcon(icon_e8f8acafd24549dcaa6c054ca9703f43);
+        
+    
+        var popup_edcea4293fd04e59b75c82c42485548e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20415a38b11546f2bd7450296a8b0d1f = $(`<div id="html_20415a38b11546f2bd7450296a8b0d1f" style="width: 100.0%; height: 100.0%;">The Physique Workshop Category: Gym Contact: 01-5521190 Location: Kumaripati</div>`)[0];
+            popup_edcea4293fd04e59b75c82c42485548e.setContent(html_20415a38b11546f2bd7450296a8b0d1f);
+        
+
+        marker_a81f4ee25c954a5f948fcc31f9d96b90.bindPopup(popup_edcea4293fd04e59b75c82c42485548e)
+        ;
+
+        
+    
+    
+            var marker_1a5ef7037b864d3bb8c13c0f83852abb = L.marker(
+                [27.669905, 85.321202],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_3925c45f8c344779bd540663d7cdcf9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a5ef7037b864d3bb8c13c0f83852abb.setIcon(icon_3925c45f8c344779bd540663d7cdcf9b);
+        
+    
+        var popup_f546ec801ff9451387e51fee3b2d6a6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34c65a7ad6bc466fab48c1da8f79a1a1 = $(`<div id="html_34c65a7ad6bc466fab48c1da8f79a1a1" style="width: 100.0%; height: 100.0%;">Titan Gym & Fitness Category: Gym Contact: 985-1034751 Location: Kumaripati</div>`)[0];
+            popup_f546ec801ff9451387e51fee3b2d6a6e.setContent(html_34c65a7ad6bc466fab48c1da8f79a1a1);
+        
+
+        marker_1a5ef7037b864d3bb8c13c0f83852abb.bindPopup(popup_f546ec801ff9451387e51fee3b2d6a6e)
+        ;
+
+        
+    
+    
+            var marker_4e69d40376604e86830c6c77eef7d26f = L.marker(
+                [27.676999, 85.31874300000001],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_66b23a6fbdd34de4960bbc0d065f441c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e69d40376604e86830c6c77eef7d26f.setIcon(icon_66b23a6fbdd34de4960bbc0d065f441c);
+        
+    
+        var popup_b1725cac79854946aaf9120171d3a513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7aa50a6aae94c998ef8ef5b1f67def0 = $(`<div id="html_b7aa50a6aae94c998ef8ef5b1f67def0" style="width: 100.0%; height: 100.0%;">Hardik Fitness Club Category: Gym Contact: 01-5530002 Location: Pulchowk</div>`)[0];
+            popup_b1725cac79854946aaf9120171d3a513.setContent(html_b7aa50a6aae94c998ef8ef5b1f67def0);
+        
+
+        marker_4e69d40376604e86830c6c77eef7d26f.bindPopup(popup_b1725cac79854946aaf9120171d3a513)
+        ;
+
+        
+    
+    
+            var marker_00d9778a62f145eeb54d1ce4ac6433c5 = L.marker(
+                [27.670987, 85.321527],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_9d2b17c66e314c5ba0f16ca1c7f41a35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00d9778a62f145eeb54d1ce4ac6433c5.setIcon(icon_9d2b17c66e314c5ba0f16ca1c7f41a35);
+        
+    
+        var popup_ef0e09e28ccf4e2aa3a7cc2438f791b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c449bba57922472abdcf4863ec59e6d0 = $(`<div id="html_c449bba57922472abdcf4863ec59e6d0" style="width: 100.0%; height: 100.0%;">Agni Fitness Club Category: Gym Contact: 985-1119244 Location: Kumaripati</div>`)[0];
+            popup_ef0e09e28ccf4e2aa3a7cc2438f791b3.setContent(html_c449bba57922472abdcf4863ec59e6d0);
+        
+
+        marker_00d9778a62f145eeb54d1ce4ac6433c5.bindPopup(popup_ef0e09e28ccf4e2aa3a7cc2438f791b3)
+        ;
+
+        
+    
+    
+            var marker_d80618e5f3ab46d387bc4735c24365d5 = L.marker(
+                [27.677421000000002, 85.310975],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_392a1b1833dc4c51a1329a15685abd30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d80618e5f3ab46d387bc4735c24365d5.setIcon(icon_392a1b1833dc4c51a1329a15685abd30);
+        
+    
+        var popup_76e48019619c453baa8d1ddef9b36694 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9154d9e9a5c466b821efc62cafe057d = $(`<div id="html_d9154d9e9a5c466b821efc62cafe057d" style="width: 100.0%; height: 100.0%;">The Pump Category: Gym Contact: 984-9279004 Location: Jhamsikhel</div>`)[0];
+            popup_76e48019619c453baa8d1ddef9b36694.setContent(html_d9154d9e9a5c466b821efc62cafe057d);
+        
+
+        marker_d80618e5f3ab46d387bc4735c24365d5.bindPopup(popup_76e48019619c453baa8d1ddef9b36694)
+        ;
+
+        
+    
+    
+            var marker_78b053ad3e1744339602f48e27dc2f40 = L.marker(
+                [27.669867, 85.309503],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_96cc17f92983486ab16d2eb6960d2fa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_78b053ad3e1744339602f48e27dc2f40.setIcon(icon_96cc17f92983486ab16d2eb6960d2fa7);
+        
+    
+        var popup_c7c81ac15c524cd7be355469a9b99252 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d81193ca8a3c4fffb6ab0d64814169cf = $(`<div id="html_d81193ca8a3c4fffb6ab0d64814169cf" style="width: 100.0%; height: 100.0%;">Platinum Fitness Club Category: Gym Contact: 01-5551318 Location: Ekantakuna</div>`)[0];
+            popup_c7c81ac15c524cd7be355469a9b99252.setContent(html_d81193ca8a3c4fffb6ab0d64814169cf);
+        
+
+        marker_78b053ad3e1744339602f48e27dc2f40.bindPopup(popup_c7c81ac15c524cd7be355469a9b99252)
+        ;
+
+        
+    
+    
+            var marker_a897966e4ed643d4ae48e0d4e4c31027 = L.marker(
+                [27.669953000000003, 85.309372],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_336d44fa16764c0c92f60f699c717686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a897966e4ed643d4ae48e0d4e4c31027.setIcon(icon_336d44fa16764c0c92f60f699c717686);
+        
+    
+        var popup_1afbd6e8a0604fb084aeda96e00797bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad461da60e194f54bf606d61f592322c = $(`<div id="html_ad461da60e194f54bf606d61f592322c" style="width: 100.0%; height: 100.0%;">Proton Fitness Centre Category: Gym Contact: 985-1057584 Location: Ekantakuna</div>`)[0];
+            popup_1afbd6e8a0604fb084aeda96e00797bb.setContent(html_ad461da60e194f54bf606d61f592322c);
+        
+
+        marker_a897966e4ed643d4ae48e0d4e4c31027.bindPopup(popup_1afbd6e8a0604fb084aeda96e00797bb)
+        ;
+
+        
+    
+    
+            var marker_208dc453df4e44f59bb835153df99e19 = L.marker(
+                [27.671088, 85.318789],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_315ee30313f24fc6b3f07115b7fb420a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_208dc453df4e44f59bb835153df99e19.setIcon(icon_315ee30313f24fc6b3f07115b7fb420a);
+        
+    
+        var popup_9badb379c517454e940f6f71a67b77ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_888d6396a104455497c9ba02fab3fa2e = $(`<div id="html_888d6396a104455497c9ba02fab3fa2e" style="width: 100.0%; height: 100.0%;">Bota Momo Category: Momo Contact: 980-2055040 Location: Kumaripati</div>`)[0];
+            popup_9badb379c517454e940f6f71a67b77ad.setContent(html_888d6396a104455497c9ba02fab3fa2e);
+        
+
+        marker_208dc453df4e44f59bb835153df99e19.bindPopup(popup_9badb379c517454e940f6f71a67b77ad)
+        ;
+
+        
+    
+    
+            var marker_51e1ad6f2e62433aa79cde8413084541 = L.marker(
+                [27.670758000000003, 85.31968499999999],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_f8812e63287e4915aaa6617cde3749b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51e1ad6f2e62433aa79cde8413084541.setIcon(icon_f8812e63287e4915aaa6617cde3749b8);
+        
+    
+        var popup_5bddd95ef970405984697730c7f7d74a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a7b7b1a776743fda36bc25146202806 = $(`<div id="html_8a7b7b1a776743fda36bc25146202806" style="width: 100.0%; height: 100.0%;">Sinka Category: Momo Contact: 984-9289797 Location: Kumaripati</div>`)[0];
+            popup_5bddd95ef970405984697730c7f7d74a.setContent(html_8a7b7b1a776743fda36bc25146202806);
+        
+
+        marker_51e1ad6f2e62433aa79cde8413084541.bindPopup(popup_5bddd95ef970405984697730c7f7d74a)
+        ;
+
+        
+    
+    
+            var marker_7da6b62824a34e939d88935d2abc6486 = L.marker(
+                [27.676126, 85.314212],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_c200ca4bac49498a9f26022a3e46b091 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7da6b62824a34e939d88935d2abc6486.setIcon(icon_c200ca4bac49498a9f26022a3e46b091);
+        
+    
+        var popup_ccf32cab7f69406c9c3c5a1e9744064d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6a9dea729654ea886e7bb34f1683310 = $(`<div id="html_f6a9dea729654ea886e7bb34f1683310" style="width: 100.0%; height: 100.0%;">The Ghangri Café Category: Momo Contact: 01-5528703 Location: Pulchowk</div>`)[0];
+            popup_ccf32cab7f69406c9c3c5a1e9744064d.setContent(html_f6a9dea729654ea886e7bb34f1683310);
+        
+
+        marker_7da6b62824a34e939d88935d2abc6486.bindPopup(popup_ccf32cab7f69406c9c3c5a1e9744064d)
+        ;
+
+        
+    
+    
+            var marker_9ddbeb9ffddd44ae92e7ec315b784960 = L.marker(
+                [27.678046999999996, 85.315988],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_8a9a3e4a724149289aabd980a81335f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ddbeb9ffddd44ae92e7ec315b784960.setIcon(icon_8a9a3e4a724149289aabd980a81335f8);
+        
+    
+        var popup_b733d2eca5e042008002b64b7fdd7b75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aa892333dd84d269dd8e9da0b9a0c63 = $(`<div id="html_0aa892333dd84d269dd8e9da0b9a0c63" style="width: 100.0%; height: 100.0%;">Great Tasty Boso Rahit Momo Category: Momo Contact: 01-5534193 Location: Pulchowk</div>`)[0];
+            popup_b733d2eca5e042008002b64b7fdd7b75.setContent(html_0aa892333dd84d269dd8e9da0b9a0c63);
+        
+
+        marker_9ddbeb9ffddd44ae92e7ec315b784960.bindPopup(popup_b733d2eca5e042008002b64b7fdd7b75)
+        ;
+
+        
+    
+    
+            var marker_d4fcfd8e1f04433b8e27153e5abcea21 = L.marker(
+                [27.676746, 85.317173],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_d1321b17fbf54486b11cfef67f89b872 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4fcfd8e1f04433b8e27153e5abcea21.setIcon(icon_d1321b17fbf54486b11cfef67f89b872);
+        
+    
+        var popup_db6532b5c96e463b94d2c3c985ff8117 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dbb51a4e09a42269ad76b461ce1c5d9 = $(`<div id="html_1dbb51a4e09a42269ad76b461ce1c5d9" style="width: 100.0%; height: 100.0%;">Nice Momo Category: Momo Contact: 984-9353928 Location: Pulchowk</div>`)[0];
+            popup_db6532b5c96e463b94d2c3c985ff8117.setContent(html_1dbb51a4e09a42269ad76b461ce1c5d9);
+        
+
+        marker_d4fcfd8e1f04433b8e27153e5abcea21.bindPopup(popup_db6532b5c96e463b94d2c3c985ff8117)
+        ;
+
+        
+    
+    
+            var marker_e72d0a7d8f964fadaa2d3716519db4d5 = L.marker(
+                [27.670052000000002, 85.321134],
+                {}
+            ).addTo(feature_group_eb8a64b6883c462c9f38c2ea451139db);
+        
+    
+            var icon_db2b2f915196489c97ac7e96ce1156fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e72d0a7d8f964fadaa2d3716519db4d5.setIcon(icon_db2b2f915196489c97ac7e96ce1156fb);
+        
+    
+        var popup_b33c44699990467887039e38dbe5e2e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2514539191334424b37d1389c4caf858 = $(`<div id="html_2514539191334424b37d1389c4caf858" style="width: 100.0%; height: 100.0%;">T Burger & Café Category: Momo Contact: 9810583522 Location: Kumaripati</div>`)[0];
+            popup_b33c44699990467887039e38dbe5e2e5.setContent(html_2514539191334424b37d1389c4caf858);
+        
+
+        marker_e72d0a7d8f964fadaa2d3716519db4d5.bindPopup(popup_b33c44699990467887039e38dbe5e2e5)
+        ;
+
+        
+    
+    
+            var feature_group_16962e5b33ac42a8af9081c5a1446c84 = L.featureGroup(
+                {}
+            ).addTo(map_0c78dfb6495444f5a90bf9ed626ae39a);
+        
+    
+            var marker_13bd65ae049546fdab4b8af12ca88b90 = L.marker(
+                [27.669905, 85.321202],
+                {}
+            ).addTo(feature_group_16962e5b33ac42a8af9081c5a1446c84);
+        
+    
+            var icon_429cfea8901c489590fbad160fdca820 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_13bd65ae049546fdab4b8af12ca88b90.setIcon(icon_429cfea8901c489590fbad160fdca820);
+        
+    
+        var popup_87424a00e56541b9aaaa8b4c006a49ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3953ccf0d9141c4bc9f086cb1502c20 = $(`<div id="html_b3953ccf0d9141c4bc9f086cb1502c20" style="width: 100.0%; height: 100.0%;">The Physique Workshop Category: Gym Contact: 01-5521190 Location: Kumaripati</div>`)[0];
+            popup_87424a00e56541b9aaaa8b4c006a49ef.setContent(html_b3953ccf0d9141c4bc9f086cb1502c20);
+        
+
+        marker_13bd65ae049546fdab4b8af12ca88b90.bindPopup(popup_87424a00e56541b9aaaa8b4c006a49ef)
+        ;
+
+        
+    
+    
+            var marker_298997e2269b411999d5346ef39e5a56 = L.marker(
+                [27.669905, 85.321202],
+                {}
+            ).addTo(feature_group_16962e5b33ac42a8af9081c5a1446c84);
+        
+    
+            var icon_d51fe80d563744268a485ee944948500 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_298997e2269b411999d5346ef39e5a56.setIcon(icon_d51fe80d563744268a485ee944948500);
+        
+    
+        var popup_7c63c0dcca084baba8fc25d89f1d7a02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c8e35739c864709a88a874d752cac38 = $(`<div id="html_9c8e35739c864709a88a874d752cac38" style="width: 100.0%; height: 100.0%;">Titan Gym & Fitness Category: Gym Contact: 985-1034751 Location: Kumaripati</div>`)[0];
+            popup_7c63c0dcca084baba8fc25d89f1d7a02.setContent(html_9c8e35739c864709a88a874d752cac38);
+        
+
+        marker_298997e2269b411999d5346ef39e5a56.bindPopup(popup_7c63c0dcca084baba8fc25d89f1d7a02)
+        ;
+
+        
+    
+    
+            var marker_56ccfb82f88e4b88a520344d3eeb515f = L.marker(
+                [27.676999, 85.31874300000001],
+                {}
+            ).addTo(feature_group_16962e5b33ac42a8af9081c5a1446c84);
+        
+    
+            var icon_735f527338374df2a291be364be454fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_56ccfb82f88e4b88a520344d3eeb515f.setIcon(icon_735f527338374df2a291be364be454fe);
+        
+    
+        var popup_5f0c66f83e4f4b939617f5006f148fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7889f8eca3ef41c7b5181b3ee149effe = $(`<div id="html_7889f8eca3ef41c7b5181b3ee149effe" style="width: 100.0%; height: 100.0%;">Hardik Fitness Club Category: Gym Contact: 01-5530002 Location: Pulchowk</div>`)[0];
+            popup_5f0c66f83e4f4b939617f5006f148fb0.setContent(html_7889f8eca3ef41c7b5181b3ee149effe);
+        
+
+        marker_56ccfb82f88e4b88a520344d3eeb515f.bindPopup(popup_5f0c66f83e4f4b939617f5006f148fb0)
+        ;
+
+        
+    
+    
+            var marker_64382da3472e48cc8c309e6893efe7fa = L.marker(
+                [27.670987, 85.321527],
+                {}
+            ).addTo(feature_group_16962e5b33ac42a8af9081c5a1446c84);
+        
+    
+            var icon_3f05d4c2029643399ac80162a794b54f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_64382da3472e48cc8c309e6893efe7fa.setIcon(icon_3f05d4c2029643399ac80162a794b54f);
+        
+    
+        var popup_14b9b5e7c5e04d1b83df7a6ad15e9342 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2c28d359f3a4054b4b4cdace2ecd95e = $(`<div id="html_f2c28d359f3a4054b4b4cdace2ecd95e" style="width: 100.0%; height: 100.0%;">Agni Fitness Club Category: Gym Contact: 985-1119244 Location: Kumaripati</div>`)[0];
+            popup_14b9b5e7c5e04d1b83df7a6ad15e9342.setContent(html_f2c28d359f3a4054b4b4cdace2ecd95e);
+        
+
+        marker_64382da3472e48cc8c309e6893efe7fa.bindPopup(popup_14b9b5e7c5e04d1b83df7a6ad15e9342)
+        ;
+
+        
+    
+    
+            var marker_47952bf047164b90a9e6fdf05f5a296b = L.marker(
+                [27.677421000000002, 85.310975],
+                {}
+            ).addTo(feature_group_16962e5b33ac42a8af9081c5a1446c84);
+        
+    
+            var icon_29942f531e6947a59cef7e8ad8974902 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_47952bf047164b90a9e6fdf05f5a296b.setIcon(icon_29942f531e6947a59cef7e8ad8974902);
+        
+    
+        var popup_53033c15591f407b920340685657da09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f09b00aa5fb4ae6a445c98b5bc994ea = $(`<div id="html_1f09b00aa5fb4ae6a445c98b5bc994ea" style="width: 100.0%; height: 100.0%;">The Pump Category: Gym Contact: 984-9279004 Location: Jhamsikhel</div>`)[0];
+            popup_53033c15591f407b920340685657da09.setContent(html_1f09b00aa5fb4ae6a445c98b5bc994ea);
+        
+
+        marker_47952bf047164b90a9e6fdf05f5a296b.bindPopup(popup_53033c15591f407b920340685657da09)
+        ;
+
+        
+    
+    
+            var marker_2bc6cebd34a44f23a778fec47e3ca2cb = L.marker(
+                [27.669867, 85.309503],
+                {}
+            ).addTo(feature_group_16962e5b33ac42a8af9081c5a1446c84);
+        
+    
+            var icon_662b1a29da8b4dc4b4ea2cafe6d4b6f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2bc6cebd34a44f23a778fec47e3ca2cb.setIcon(icon_662b1a29da8b4dc4b4ea2cafe6d4b6f4);
+        
+    
+        var popup_ffa915e375e94192abc10a7b4f873bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_970879e62a344ca7b37dc2238d515dee = $(`<div id="html_970879e62a344ca7b37dc2238d515dee" style="width: 100.0%; height: 100.0%;">Platinum Fitness Club Category: Gym Contact: 01-5551318 Location: Ekantakuna</div>`)[0];
+            popup_ffa915e375e94192abc10a7b4f873bd3.setContent(html_970879e62a344ca7b37dc2238d515dee);
+        
+
+        marker_2bc6cebd34a44f23a778fec47e3ca2cb.bindPopup(popup_ffa915e375e94192abc10a7b4f873bd3)
+        ;
+
+        
+    
+    
+            var marker_6f4a10a0ef7e4f428ea62c30684b9889 = L.marker(
+                [27.669953000000003, 85.309372],
+                {}
+            ).addTo(feature_group_16962e5b33ac42a8af9081c5a1446c84);
+        
+    
+            var icon_40cbb81dc7884f2c93bbc1b6deaa5af2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f4a10a0ef7e4f428ea62c30684b9889.setIcon(icon_40cbb81dc7884f2c93bbc1b6deaa5af2);
+        
+    
+        var popup_85a99c1a2a3d4f36b393dd6b8b415882 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4aa04eb5ca454e1eb6f9c446401b1c04 = $(`<div id="html_4aa04eb5ca454e1eb6f9c446401b1c04" style="width: 100.0%; height: 100.0%;">Proton Fitness Centre Category: Gym Contact: 985-1057584 Location: Ekantakuna</div>`)[0];
+            popup_85a99c1a2a3d4f36b393dd6b8b415882.setContent(html_4aa04eb5ca454e1eb6f9c446401b1c04);
+        
+
+        marker_6f4a10a0ef7e4f428ea62c30684b9889.bindPopup(popup_85a99c1a2a3d4f36b393dd6b8b415882)
+        ;
+
+        
+    
+    
+            var feature_group_d73e4bd2241546f88c66368b8a61fbaa = L.featureGroup(
+                {}
+            ).addTo(map_0c78dfb6495444f5a90bf9ed626ae39a);
+        
+    
+            var marker_09404412978a473d9a6043df65ba33ab = L.marker(
+                [27.671088, 85.318789],
+                {}
+            ).addTo(feature_group_d73e4bd2241546f88c66368b8a61fbaa);
+        
+    
+            var icon_b17c4620eba8472eaac0605b3cbc4475 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_09404412978a473d9a6043df65ba33ab.setIcon(icon_b17c4620eba8472eaac0605b3cbc4475);
+        
+    
+        var popup_2bc0c58ec56d4bffb16cc2ddc54a6ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50d3487930b64bb3ba8cbc5177d3ec88 = $(`<div id="html_50d3487930b64bb3ba8cbc5177d3ec88" style="width: 100.0%; height: 100.0%;">Bota Momo Category: Momo Contact: 980-2055040 Location: Kumaripati</div>`)[0];
+            popup_2bc0c58ec56d4bffb16cc2ddc54a6ab6.setContent(html_50d3487930b64bb3ba8cbc5177d3ec88);
+        
+
+        marker_09404412978a473d9a6043df65ba33ab.bindPopup(popup_2bc0c58ec56d4bffb16cc2ddc54a6ab6)
+        ;
+
+        
+    
+    
+            var marker_c1188d6838b4409b8a7ecd3dfcc44aeb = L.marker(
+                [27.670758000000003, 85.31968499999999],
+                {}
+            ).addTo(feature_group_d73e4bd2241546f88c66368b8a61fbaa);
+        
+    
+            var icon_f312d3a5b9aa40a7978a4fe39e624bf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1188d6838b4409b8a7ecd3dfcc44aeb.setIcon(icon_f312d3a5b9aa40a7978a4fe39e624bf9);
+        
+    
+        var popup_6e4ae831c82d4c2e9e5a54dde489b091 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e864ac78335445a8a1b236f71d00e4d9 = $(`<div id="html_e864ac78335445a8a1b236f71d00e4d9" style="width: 100.0%; height: 100.0%;">Sinka Category: Momo Contact: 984-9289797 Location: Kumaripati</div>`)[0];
+            popup_6e4ae831c82d4c2e9e5a54dde489b091.setContent(html_e864ac78335445a8a1b236f71d00e4d9);
+        
+
+        marker_c1188d6838b4409b8a7ecd3dfcc44aeb.bindPopup(popup_6e4ae831c82d4c2e9e5a54dde489b091)
+        ;
+
+        
+    
+    
+            var marker_339216f978d6424d866505d26dcfa036 = L.marker(
+                [27.676126, 85.314212],
+                {}
+            ).addTo(feature_group_d73e4bd2241546f88c66368b8a61fbaa);
+        
+    
+            var icon_578e07f1a5ea4a03ac4a602e111ea0ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_339216f978d6424d866505d26dcfa036.setIcon(icon_578e07f1a5ea4a03ac4a602e111ea0ea);
+        
+    
+        var popup_2307d2280f0a42ff808cd8d0abc0cdf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7102b11a9f734147988e2a5aa9d67ddd = $(`<div id="html_7102b11a9f734147988e2a5aa9d67ddd" style="width: 100.0%; height: 100.0%;">The Ghangri Café Category: Momo Contact: 01-5528703 Location: Pulchowk</div>`)[0];
+            popup_2307d2280f0a42ff808cd8d0abc0cdf0.setContent(html_7102b11a9f734147988e2a5aa9d67ddd);
+        
+
+        marker_339216f978d6424d866505d26dcfa036.bindPopup(popup_2307d2280f0a42ff808cd8d0abc0cdf0)
+        ;
+
+        
+    
+    
+            var marker_d811dde0739f48a48a7eb078b3666e13 = L.marker(
+                [27.678046999999996, 85.315988],
+                {}
+            ).addTo(feature_group_d73e4bd2241546f88c66368b8a61fbaa);
+        
+    
+            var icon_8f834bee0dc44b1c82c6c739f030a67f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d811dde0739f48a48a7eb078b3666e13.setIcon(icon_8f834bee0dc44b1c82c6c739f030a67f);
+        
+    
+        var popup_9000241d6f564d14a34e4eb919b352d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fdeb548f2294759a80cae534165bd0b = $(`<div id="html_6fdeb548f2294759a80cae534165bd0b" style="width: 100.0%; height: 100.0%;">Great Tasty Boso Rahit Momo Category: Momo Contact: 01-5534193 Location: Pulchowk</div>`)[0];
+            popup_9000241d6f564d14a34e4eb919b352d1.setContent(html_6fdeb548f2294759a80cae534165bd0b);
+        
+
+        marker_d811dde0739f48a48a7eb078b3666e13.bindPopup(popup_9000241d6f564d14a34e4eb919b352d1)
+        ;
+
+        
+    
+    
+            var marker_dcf1ab4cf2414717b682bf264ad085c2 = L.marker(
+                [27.676746, 85.317173],
+                {}
+            ).addTo(feature_group_d73e4bd2241546f88c66368b8a61fbaa);
+        
+    
+            var icon_315f9f34b10f4d088b7e18eb88cdfc5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dcf1ab4cf2414717b682bf264ad085c2.setIcon(icon_315f9f34b10f4d088b7e18eb88cdfc5e);
+        
+    
+        var popup_967b76a55a884c7d8b6f6e9e73092fb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df7821f3d6724d19a08bdd1bdcd2f073 = $(`<div id="html_df7821f3d6724d19a08bdd1bdcd2f073" style="width: 100.0%; height: 100.0%;">Nice Momo Category: Momo Contact: 984-9353928 Location: Pulchowk</div>`)[0];
+            popup_967b76a55a884c7d8b6f6e9e73092fb6.setContent(html_df7821f3d6724d19a08bdd1bdcd2f073);
+        
+
+        marker_dcf1ab4cf2414717b682bf264ad085c2.bindPopup(popup_967b76a55a884c7d8b6f6e9e73092fb6)
+        ;
+
+        
+    
+    
+            var marker_d54b2b479aa24bf7b9c364f9675c850b = L.marker(
+                [27.670052000000002, 85.321134],
+                {}
+            ).addTo(feature_group_d73e4bd2241546f88c66368b8a61fbaa);
+        
+    
+            var icon_84ec7cca45d24e34a96a033e28c5df2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d54b2b479aa24bf7b9c364f9675c850b.setIcon(icon_84ec7cca45d24e34a96a033e28c5df2f);
+        
+    
+        var popup_8cbc6e4249df422aa8a0e29a7f6fb663 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39a39e4299034ba4b15b9e6dd1b1bca9 = $(`<div id="html_39a39e4299034ba4b15b9e6dd1b1bca9" style="width: 100.0%; height: 100.0%;">T Burger & Café Category: Momo Contact: 9810583522 Location: Kumaripati</div>`)[0];
+            popup_8cbc6e4249df422aa8a0e29a7f6fb663.setContent(html_39a39e4299034ba4b15b9e6dd1b1bca9);
+        
+
+        marker_d54b2b479aa24bf7b9c364f9675c850b.bindPopup(popup_8cbc6e4249df422aa8a0e29a7f6fb663)
+        ;
+
+        
+    
+    
+            var layer_control_7de04cd2c0ee46dfb1c7dda967a07feb = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_de0a525e354148a788b640624d57560c,
+                },
+                overlays :  {
+                    "All" : feature_group_eb8a64b6883c462c9f38c2ea451139db,
+                    "Gym" : feature_group_16962e5b33ac42a8af9081c5a1446c84,
+                    "Momo" : feature_group_d73e4bd2241546f88c66368b8a61fbaa,
+                },
+            };
+            L.control.layers(
+                layer_control_7de04cd2c0ee46dfb1c7dda967a07feb.base_layers,
+                layer_control_7de04cd2c0ee46dfb1c7dda967a07feb.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_0c78dfb6495444f5a90bf9ed626ae39a);
+        
+</script>
